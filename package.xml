@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>SaG_Button</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Send as Gift Button</summary>
+    <description>Allow your customers to suggest any product as gift through Facebook, email or text message. After recipient approves and provides shipping information, we send the user back to your site to complete the purchase.</description>
+    <notes>Release version</notes>
+    <authors><author><name>Sendasgift</name><user>Sendasgift</user><email>info@sendasgift.com</email></author></authors>
+    <date>2012-09-07</date>
+    <time>07:13:19</time>
+    <contents><target name="magecommunity"><dir name="SaG"><dir name="Button"><dir name="Block"><file name="Button.php" hash="885268be2ee22fe390b641867e5e6075"/></dir><dir name="Helper"><file name="Data.php" hash="789df438a1140c3743c9569e9d9da769"/></dir><dir name="Model"><dir name="Config"><file name="Color.php" hash="ed20e0940fa4bad291a589d4e8169ae1"/><file name="Language.php" hash="fa516cf6eb729750fe395ce31460d46f"/><file name="Size.php" hash="7940b2048da74fd73a0eb50de03e54aa"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="61bf58e74c8d05aebfbf53561ebaa1d8"/><file name="config.xml" hash="42c56ca713e131acdd11a508f5ca858f"/><file name="system.xml" hash="f893a26519ef52fd4cfa5132699ee1ab"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="sagbutton.xml" hash="36119c64029fcc0edc100559db0ce699"/></dir><dir name="template"><dir name="sagbutton"><file name="cphead.phtml" hash="48db004c84204d82861fa603accb747d"/><file name="pphead.phtml" hash="9a2aed0566f3da736aac38ef42ea63e2"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="SaG_Button.xml" hash="566296c5e079017ea292d8e2802811fa"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
