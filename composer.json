@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/SaG_Button",
+    "name": "OpenMageModuleFostering\/SaG_Button",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Send as Gift Button",
     "authors": [
-    {
-        "name": "Sendasgift",
-        "email": "info@sendasgift.com"
-    }
-],
+        {
+            "name": "Sendasgift",
+            "email": "info@sendasgift.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
